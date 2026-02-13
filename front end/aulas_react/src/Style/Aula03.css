@@ -1,0 +1,9 @@
+.texto {
+    color: rgb(0, 4, 245);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-style: italic;
+}
