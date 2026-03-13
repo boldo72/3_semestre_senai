@@ -35,19 +35,19 @@ const Aula05 = () => {
                 <h3>os eventos são fundamentais para criar intatividade em web</h3>
                 <hr />
                 <button onClick={botaoClicque}>Clique aqui</button>
-                <p onDoubleClick={() => alert('duplo clique')}>este paragrafo recebe um duplo clique</p>
+                <p onDoubleClick={() => alert('duplo clique')} style={estilos.paragrafo}>este paragrafo recebe um duplo clique</p>
 
                 <hr />
 
-                <p>evento onChange - sempre que um campo deentrada e alterado</p>
+                <p style={estilos.paragrafo}>evento onChange - sempre que um campo deentrada e alterado</p>
 
-                <input onChange={() => alert(event.target.value)} type="text" placeholder="digite algo..." />
+                <input onChange={() => alert(event.target.value)} type="text" placeholder="digite algo..."  style={estilos.input}/>
 
                 <select onChange={() => alert(event.target.value)}>
-                    <option value="1°A">1°A</option>
-                    <option value="2°A">2°A</option>
-                    <option value="3°A">3°A</option>
-                    <option value="3°B">3°B</option>
+                    <option value="1°A" style={estilos.option}>1°A</option>
+                    <option value="2°A" style={estilos.option}>2°A</option>
+                    <option value="3°A" style={estilos.option}>3°A</option>
+                    <option value="3°B" style={estilos.option}>3°B</option>
                 </select>
 
                 <hr />
@@ -57,12 +57,12 @@ const Aula05 = () => {
 
                 <hr />
 
-                <p>evento onKeyDown - onKeyUp</p>
-                <input type="text" onKeyDown={(event) => alert(event.key)} />
-                <input type="text" onKeyDown={alterarcor} />
+                <p style={estilos.paragrafo}>evento onKeyDown - onKeyUp</p>
+                <input type="text" onKeyDown={(event) => alert(event.key)} style={estilos.input}/>
+                <input type="text" onKeyDown={alterarcor}style={estilos.input} />
                 <hr />
 
-                <Aula05exe />
+                <exercicio />
             </div>
         )
 }

@@ -1,0 +1,46 @@
+{
+    "simples": "ola mundo",
+    "aluno": {
+        "nome": "Joao",
+        "idade": 20,
+        "curso": "T.I"
+    },
+    "listadeAlunos": [
+        {
+            "nome": "Joao",
+            "idade": 20,
+            "curso": "T.I"
+        },
+        {
+            "nome": "Maria",
+            "idade": 21,
+            "curso": "T.I"
+        }
+    ],
+    "objeto": {
+        "nome": "boldo",
+        "curso": {
+            "nome": "ciencias contaveis",
+            "periodo": "noturno"
+        }
+    },
+    "listadentroDeObjetos": {
+        "turma": "3° B T.I",
+        "alunos": [
+            {
+                "nome": "boldo",
+                "idade": 16
+            },
+            {
+                "nome": "lipe",
+                "idade": 17
+            }
+        ]
+    }
+
+
+
+
+
+}
+

@@ -33,13 +33,15 @@ const exercicio = () => {
             <button onClick={botaoClicque}>Clique aqui</button>
             <button onClick={botaoClicque}>Clique aqui</button>
             <hr />
-            <input onChange={() => alert(event.target.value)} type="text" placeholder="digite algo..." />
+            <input onChange={() => alert(event.target.value)} type="text" placeholder="digite algo..." style={estilos.input} />
             <hr />
-            <p onMouseOver={entradaMouse} onMouseLeave={saidaMouse}>mouse aqui</p>
+            <p onMouseOver={entradaMouse} onMouseLeave={saidaMouse} style={estilos.paragrafo}>mouse aqui</p>
             <hr />
-            <input type="text" onKeyDown={(event) => alert(event.key)} />
+            <input type="text" onKeyDown={(event) => alert(event.key)} style={estilos.input} />
             <hr />
             
         </div>
     )
 }
+
+export default exercicio

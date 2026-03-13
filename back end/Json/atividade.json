@@ -1,0 +1,81 @@
+{
+    "Funcionarios": [
+        {
+            "nome": "Marcos Silva",
+            "idade": 32,
+            "curso": "Suporte Técnico"
+        },
+        {
+            "nome": "Beatriz Costa",
+            "idade": 27,
+            "curso": "Vendas"
+        },
+        {
+            "nome": "Ricardo Alves",
+            "idade": 29,
+            "curso": "Logística"
+        },
+        {
+            "nome": "Juliana Monteiro",
+            "idade": 34,
+            "curso": "Marketing"
+        }
+    ],
+    "catalogo_de_produtos": [
+        {
+            "produto": "Mouse Gamer",
+            "preco": "R$ 120,00"
+        },
+        {
+            "produto": "Teclado Mecânico",
+            "preco": "R$ 250,00"
+        },
+        {
+            "produto": "Headset USB",
+            "preco": "R$ 180,00"
+        },
+        {
+            "produto": "Monitor LED 24",
+            "preco": "R$ 850,00"
+        },
+        {
+            "produto": "Webcam Full HD",
+            "preco": "R$ 150,00"
+        }
+    ],
+    "Janeiro": [
+        {
+            "cliente": "Ana souza",
+            "produto": "Mouse Gamer",
+            "preco": "R$ 120,00"
+        },
+        {
+            "cliente": "Carlos Mendes",
+            "produto": "Teclado Mecânico",
+            "preco": "R$ 250,00"
+        },
+        {
+            "cliente": "Fernanda Lima",
+            "produto": "Webcam Full HD",
+            "preco": "R$ 150,00"
+        },
+        {
+            "total": "R$ 520,00"
+        }
+    ],
+    "Fevereiro": [
+        {
+            "cliente": "Gabriel Santos",
+            "produto": "Monitor LED 24",
+            "preco": "R$ 850,00"
+        },
+        {
+            "cliente": "Marina Rocha",
+            "produto": "Headset USB",
+            "preco": "R$ 180,00"
+        },
+        {
+            "total": "R$ 1.100,00"
+        }
+    ]
+}
